@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50622",
+      "sslPort": 44376
+    }
+  },
+  "profiles": {
+    "PedidosApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "USERNAME": "curso",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SERVERNAME": "LAPTOP-1DAHCT12",
+        "PASSWORD": "pass",
+        "DATABASE": "Pedidos"
+      },
+      "applicationUrl": "https://localhost:7230;http://localhost:5230",
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
